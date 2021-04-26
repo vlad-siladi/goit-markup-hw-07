@@ -1,7 +1,10 @@
 body {
   background-color: var(--primary-white-colour);
   color: var(--primary-text-colour);
-  font-family: Roboto, sans-serif;
+
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  letter-spacing: var(--letter-spacing);
 }
 
 img {
